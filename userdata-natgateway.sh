@@ -20,4 +20,3 @@ iptables -A FORWARD -p tcp -d 10.20.1.20 --dport 80 -j ACCEPT
 echo "10.7.5.20       web1" | sudo tee -a /etc/hosts
 echo "10.10.1.20      spoke1-web1" | sudo tee -a /etc/hosts
 echo "10.20.1.20      spoke2-web1" | sudo tee -a /etc/hosts
-© 2021 GitHub, Inc.
