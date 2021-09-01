@@ -126,7 +126,7 @@ You should be able to access the website hosted on the webserver (IP: 10.5.7.20)
 Validate your NAT rules in iptables
 
 ```bash
-sudo /sbin/iptables -L -v -n 
+sudo iptables -t nat -L -n -v
 ```
 Validate IP forwarding is set to "1"
 
