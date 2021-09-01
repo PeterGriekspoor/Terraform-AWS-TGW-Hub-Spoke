@@ -112,7 +112,7 @@ From the previous state, take note of the NAT instance's public IP  - **"NAT_pub
 The NAT instance is pre-configured so that all web servers sitting on internal subnets are exposed to the Internet via NAT instance's elastic IP (Public IP).
 
 ## Access Web server in Edge VPC
-NAT instance is listening on port 80, and configured to NAT (forward) the traffic on port 80 to the web server in the ***edge VPC***. To access the website, go to your browser, and access to the NAT instance's public IP on port 80.
+NAT instance is listening on port 80, and configured to NAT (forward) the traffic on port 80 to the web server in the ***edge VPC***. To access the website, go to your browser, and access to the NAT instance's public IP on port 80. Note that the NAT instance static route over eth1 to its private subnet does do not survive reboot!
 
 ```
 http://13.213.211.210 
