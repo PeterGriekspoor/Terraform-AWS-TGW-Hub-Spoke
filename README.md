@@ -1,6 +1,7 @@
 # Terraform Lab - Automating AWS Transit Gateway 
 
-It is definitely fun to design and build network on AWS. However,it is more fun when you automate it. 
+This Repo is based largely on the repo from Jayden, my former Check Point colleague and is adpated to suit CloudGuard Geo-Cluster and Auto-Scaling labs.
+Original repo: https://github.com/jaydenaung/Terraform-AWS-TGW-Lab
 
 In this tutorial, I'll do a step-by-step walk-through of automating an AWS environment which consists of three VPCs, and a Transit Gateway, using Terraform.
 
