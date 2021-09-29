@@ -28,7 +28,7 @@ All three web servers are deployed into private subnets and not directly exposed
 
 ## 1. Clone the git repo
 ```bash
-git clone https://github.com/jaydenaung/Terraform-AWS-TGW-Lab
+git clone https://github.com/PeterGriekspoor/Terraform-AWS-TGW-Hub-Spoke
 ```
 
 This will clone my git repo to your local directory.
