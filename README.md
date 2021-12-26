@@ -121,7 +121,7 @@ http://13.213.211.210
 
 You should be able to access the website hosted on the webserver (IP: 10.5.7.20) which is on the private subnet of the Edge VPC.
 
-![header image](img/edge.png)
+![header image](TGW-Architecture.png)
 
 ## If it doesn't work
 Validate your NAT rules in iptables
