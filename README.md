@@ -16,7 +16,7 @@ The lab environment on AWS will consist of the the following VPCs.
 All three web servers are deployed into private subnets and not directly exposed to the Internet. They are exposed to the Internet via the NAT instance (linux router).
 
 
-![header image](img/TGW-Architecture 1.0.png)
+![header image](img/"TGW-Architecture 1.0.png")
 
 # Prerequisites
 
