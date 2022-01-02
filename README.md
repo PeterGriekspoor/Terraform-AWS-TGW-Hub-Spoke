@@ -121,7 +121,6 @@ http://13.213.211.210
 
 You should be able to access the website hosted on the webserver (IP: 10.5.7.20) which is on the private subnet of the Edge VPC.
 
-![header image](TGW-Architecture.png)
 
 ## If it doesn't work
 Validate your NAT rules in iptables
@@ -154,7 +153,6 @@ http://13.213.211.210:8081
 
 You should see the website hosted on the webserver (Internal IP: 10.10.1.20) which is on the private subnet of the ***Spoke VPC 1***. Take note that the internal web server in spoke VPC is exposed via the NAT instance in edge VPC.
 
-![header image](img/spoke1.png)
 
 ## Access Web server in Spoke VPC 2
 
@@ -165,10 +163,6 @@ http://13.213.211.210:8082
 ```
 
 You should see the website hosted on the webserver (Internal IP: 10.20.1.20) which is on the private subnet of the ***Spoke VPC 2***. Take note that the internal web server in spoke VPC is exposed via the NAT instance in edge VPC.
-
-![header image](img/spoke2.png)
-
->> Note: All Photos shown on the websites were taken by me, using an iPhone. They are photos of one of my most favorite cities on earth - **Edinburgh**!
 
 # Additional East-West Traffic Test
 If you're feeling adventurous, you can do the following test, besides accessing the websites on different VPCs. The NAT instance (linux firewall) is pre-configured so that all traffic between VPCs (east-west traffic) goes through it.
